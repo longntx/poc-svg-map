@@ -3,8 +3,20 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  //padding: 6rem;
+  background: antiquewhite;
   min-height: 100vh;
+  cursor: auto !important;
+  & g[id*='marker-'] {
+    cursor: pointer !important;
+    pointer-events: bounding-box;
+    & path {
+      pointer-events: none;
+    }
+  }
+  & g[id*='Group_'] {
+    pointer-events: none;
+  }
 }
 
 .description {

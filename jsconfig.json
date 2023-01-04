@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "$hooks": ["./hooks"],
+      "$hooks/*": ["./hooks/*"],
+      "$components": ["./components"],
+      "$components/*": ["./components/*"]
+    }
+  }
+}

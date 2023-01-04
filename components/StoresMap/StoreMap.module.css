@@ -1,0 +1,42 @@
+.tools {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.buttonSuccess,
+.buttonError,
+.buttonWarning,
+.buttonSecondary {
+  color: white;
+  border-radius: 10px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  width: 90px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.buttonSuccess {
+  background: rgb(28, 184, 65);
+  /* this is a green */
+}
+
+.buttonError {
+  background: rgb(202, 60, 60);
+  /* this is a maroon */
+}
+
+.buttonWarning {
+  background: rgb(223, 117, 20);
+  /* this is an orange */
+}
+
+.buttonSecondary {
+  background: #cdcdcd;
+  border: 1px solid #c0c0c0;
+  /* this is a light blue */
+}
